@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA and CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Semester SGPA and CGPA Calculator</h1>
+
+        <div class="input-container">
+            <label for="studentName">Name:</label>
+            <input type="text" id="studentName" placeholder="Enter your name">
+        </div>
+
+        <div class="semester-container">
+            <h2>Semester I</h2>
+            <div class="input-group">
+                <label for="sub1">BTBS101 - Engineering Mathematics-I:</label>
+                <input type="text" id="sub1" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub2">BTBS102 - Engineering Physics:</label>
+                <input type="text" id="sub2" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub3">BTES103 - Engineering Graphics:</label>
+                <input type="text" id="sub3" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub4">BTHM104 - Communication Skills:</label>
+                <input type="text" id="sub4" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub5">BTES105 - Energy and Environment Engineering:</label>
+                <input type="text" id="sub5" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub6">BTES107L - Engineering Physics Lab:</label>
+                <input type="text" id="sub6" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub7">BTES108L - Engineering Graphics Lab:</label>
+                <input type="text" id="sub7" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub8">BTHM109L - Communication Skills Lab:</label>
+                <input type="text" id="sub8" placeholder="Grade">
+            </div>
+        </div>
+
+        <div class="semester-container">
+            <h2>Semester II</h2>
+            <div class="input-group">
+                <label for="sub9">BTBS201 - Engineering Mathematics-II:</label>
+                <input type="text" id="sub9" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub10">BTBS202 - Engineering Chemistry:</label>
+                <input type="text" id="sub10" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub11">BTES203 - Engineering Mechanics:</label>
+                <input type="text" id="sub11" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub12">BTES204 - Computer Programming in C:</label>
+                <input type="text" id="sub12" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub13">BTES205 - Workshop Practices:</label>
+                <input type="text" id="sub13" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub14">BTBS207L - Engineering Chemistry Lab:</label>
+                <input type="text" id="sub14" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub15">BTES208L - Engineering Mechanics Lab:</label>
+                <input type="text" id="sub15" placeholder="Grade">
+            </div>
+            <div class="input-group">
+                <label for="sub16">BTES210S - Seminar:</label>
+                <input type="text" id="sub16" placeholder="Grade">
+            </div>
+        </div>
+
+        <button id="calculate">Calculate SGPA</button>
+
+        <div class="result">
+            <h3 id="sgpaResult">SGPA: </h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
